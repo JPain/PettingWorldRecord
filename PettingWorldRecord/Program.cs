@@ -91,27 +91,5 @@ namespace PettingWorldRecord
                 Console.WriteLine("|b      |b");
             }
         }
-        private static void UpdateDog(int petted)
-        {
-            Console.Clear();
-            Console.WriteLine("Dogs Petted: " + _pettedCount);
-
-            if (_dogToggle)
-            {
-                Console.WriteLine("          __");
-                Console.WriteLine(" \\ ______/ V`-,");
-                Console.WriteLine("  }        /~~");
-                Console.WriteLine(" /_)^ --,r'");
-                Console.WriteLine("|b      |b");
-            }
-            else
-            {
-                Console.WriteLine("          __");
-                Console.WriteLine("  /______/ V`-,");
-                Console.WriteLine("  }        /~~");
-                Console.WriteLine(" /_)^ --,r'");
-                Console.WriteLine("|b      |b");
-            }
-        }
     }
 }
